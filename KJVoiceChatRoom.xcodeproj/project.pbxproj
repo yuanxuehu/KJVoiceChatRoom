@@ -16,6 +16,14 @@
 		68BC37E22C8FD4DB0085A403 /* KJVoiceChatRoomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BC37E12C8FD4DB0085A403 /* KJVoiceChatRoomTests.swift */; };
 		68BC37EC2C8FD4DB0085A403 /* KJVoiceChatRoomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BC37EB2C8FD4DB0085A403 /* KJVoiceChatRoomUITests.swift */; };
 		68BC37EE2C8FD4DB0085A403 /* KJVoiceChatRoomUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BC37ED2C8FD4DB0085A403 /* KJVoiceChatRoomUITestsLaunchTests.swift */; };
+		68BC37FB2C8FD6070085A403 /* KeyCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BC37FA2C8FD6070085A403 /* KeyCenter.swift */; };
+		68BC37FD2C8FD6560085A403 /* VoiceChatUIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BC37FC2C8FD6560085A403 /* VoiceChatUIKit.swift */; };
+		68BC37FF2C8FD6980085A403 /* RoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BC37FE2C8FD6970085A403 /* RoomViewController.swift */; };
+		68BC38022C8FD6C60085A403 /* AUICreateRoomSettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BC38012C8FD6C60085A403 /* AUICreateRoomSettingController.swift */; };
+		68BC38062C8FD7000085A403 /* AUIRoomListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BC38042C8FD6FF0085A403 /* AUIRoomListViewController.swift */; };
+		68BC38072C8FD7000085A403 /* AUIRoomListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BC38052C8FD6FF0085A403 /* AUIRoomListCell.swift */; };
+		68BC380A2C8FD7360085A403 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BC38092C8FD7360085A403 /* UserInfo.swift */; };
+		B3E6C89FC311E253EBBE5D9C /* Pods_KJVoiceChatRoom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3100354C1CD16BC0226C8121 /* Pods_KJVoiceChatRoom.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3100354C1CD16BC0226C8121 /* Pods_KJVoiceChatRoom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KJVoiceChatRoom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E2189704CEAB28FF8A547F8 /* Pods-KJVoiceChatRoom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KJVoiceChatRoom.debug.xcconfig"; path = "Target Support Files/Pods-KJVoiceChatRoom/Pods-KJVoiceChatRoom.debug.xcconfig"; sourceTree = "<group>"; };
 		68BC37C72C8FD4D90085A403 /* KJVoiceChatRoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KJVoiceChatRoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68BC37CA2C8FD4D90085A403 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68BC37CC2C8FD4D90085A403 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +59,14 @@
 		68BC37E72C8FD4DB0085A403 /* KJVoiceChatRoomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KJVoiceChatRoomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68BC37EB2C8FD4DB0085A403 /* KJVoiceChatRoomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KJVoiceChatRoomUITests.swift; sourceTree = "<group>"; };
 		68BC37ED2C8FD4DB0085A403 /* KJVoiceChatRoomUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KJVoiceChatRoomUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		68BC37FA2C8FD6070085A403 /* KeyCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyCenter.swift; sourceTree = "<group>"; };
+		68BC37FC2C8FD6560085A403 /* VoiceChatUIKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceChatUIKit.swift; sourceTree = "<group>"; };
+		68BC37FE2C8FD6970085A403 /* RoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomViewController.swift; sourceTree = "<group>"; };
+		68BC38012C8FD6C60085A403 /* AUICreateRoomSettingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AUICreateRoomSettingController.swift; sourceTree = "<group>"; };
+		68BC38042C8FD6FF0085A403 /* AUIRoomListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AUIRoomListViewController.swift; sourceTree = "<group>"; };
+		68BC38052C8FD6FF0085A403 /* AUIRoomListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AUIRoomListCell.swift; sourceTree = "<group>"; };
+		68BC38092C8FD7360085A403 /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		C58740F2754B798E7DFB8B11 /* Pods-KJVoiceChatRoom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KJVoiceChatRoom.release.xcconfig"; path = "Target Support Files/Pods-KJVoiceChatRoom/Pods-KJVoiceChatRoom.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3E6C89FC311E253EBBE5D9C /* Pods_KJVoiceChatRoom.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +95,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1EB41E392591A0DE1120F8A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3100354C1CD16BC0226C8121 /* Pods_KJVoiceChatRoom.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		68BC37BE2C8FD4D90085A403 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +110,8 @@
 				68BC37E02C8FD4DB0085A403 /* KJVoiceChatRoomTests */,
 				68BC37EA2C8FD4DB0085A403 /* KJVoiceChatRoomUITests */,
 				68BC37C82C8FD4D90085A403 /* Products */,
+				B6F11FBDE0E3BBB13C62D024 /* Pods */,
+				1EB41E392591A0DE1120F8A5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +128,12 @@
 		68BC37C92C8FD4D90085A403 /* KJVoiceChatRoom */ = {
 			isa = PBXGroup;
 			children = (
+				68BC38082C8FD70F0085A403 /* Model */,
+				68BC38032C8FD6CF0085A403 /* RoomList */,
+				68BC38002C8FD6AA0085A403 /* CreateRoomSetting */,
+				68BC37FA2C8FD6070085A403 /* KeyCenter.swift */,
+				68BC37FC2C8FD6560085A403 /* VoiceChatUIKit.swift */,
+				68BC37FE2C8FD6970085A403 /* RoomViewController.swift */,
 				68BC37CA2C8FD4D90085A403 /* AppDelegate.swift */,
 				68BC37CC2C8FD4D90085A403 /* SceneDelegate.swift */,
 				68BC37CE2C8FD4D90085A403 /* ViewController.swift */,
@@ -127,6 +162,40 @@
 			path = KJVoiceChatRoomUITests;
 			sourceTree = "<group>";
 		};
+		68BC38002C8FD6AA0085A403 /* CreateRoomSetting */ = {
+			isa = PBXGroup;
+			children = (
+				68BC38012C8FD6C60085A403 /* AUICreateRoomSettingController.swift */,
+			);
+			path = CreateRoomSetting;
+			sourceTree = "<group>";
+		};
+		68BC38032C8FD6CF0085A403 /* RoomList */ = {
+			isa = PBXGroup;
+			children = (
+				68BC38052C8FD6FF0085A403 /* AUIRoomListCell.swift */,
+				68BC38042C8FD6FF0085A403 /* AUIRoomListViewController.swift */,
+			);
+			path = RoomList;
+			sourceTree = "<group>";
+		};
+		68BC38082C8FD70F0085A403 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				68BC38092C8FD7360085A403 /* UserInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B6F11FBDE0E3BBB13C62D024 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E2189704CEAB28FF8A547F8 /* Pods-KJVoiceChatRoom.debug.xcconfig */,
+				C58740F2754B798E7DFB8B11 /* Pods-KJVoiceChatRoom.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +203,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 68BC37F12C8FD4DB0085A403 /* Build configuration list for PBXNativeTarget "KJVoiceChatRoom" */;
 			buildPhases = (
+				FFE66B94EC17C7503BD9FB4B /* [CP] Check Pods Manifest.lock */,
 				68BC37C32C8FD4D90085A403 /* Sources */,
 				68BC37C42C8FD4D90085A403 /* Frameworks */,
 				68BC37C52C8FD4D90085A403 /* Resources */,
+				F40E7FD12E48197CDE3C56A2 /* [CP] Embed Pods Frameworks */,
+				EDA6990B16D7A2F2A41294B8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,13 +325,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		EDA6990B16D7A2F2A41294B8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KJVoiceChatRoom/Pods-KJVoiceChatRoom-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KJVoiceChatRoom/Pods-KJVoiceChatRoom-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KJVoiceChatRoom/Pods-KJVoiceChatRoom-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F40E7FD12E48197CDE3C56A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KJVoiceChatRoom/Pods-KJVoiceChatRoom-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KJVoiceChatRoom/Pods-KJVoiceChatRoom-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KJVoiceChatRoom/Pods-KJVoiceChatRoom-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFE66B94EC17C7503BD9FB4B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KJVoiceChatRoom-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		68BC37C32C8FD4D90085A403 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68BC38072C8FD7000085A403 /* AUIRoomListCell.swift in Sources */,
+				68BC38022C8FD6C60085A403 /* AUICreateRoomSettingController.swift in Sources */,
+				68BC38062C8FD7000085A403 /* AUIRoomListViewController.swift in Sources */,
+				68BC37FD2C8FD6560085A403 /* VoiceChatUIKit.swift in Sources */,
+				68BC37FB2C8FD6070085A403 /* KeyCenter.swift in Sources */,
 				68BC37CF2C8FD4D90085A403 /* ViewController.swift in Sources */,
+				68BC37FF2C8FD6980085A403 /* RoomViewController.swift in Sources */,
 				68BC37CB2C8FD4D90085A403 /* AppDelegate.swift in Sources */,
+				68BC380A2C8FD7360085A403 /* UserInfo.swift in Sources */,
 				68BC37CD2C8FD4D90085A403 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +570,7 @@
 		};
 		68BC37F22C8FD4DB0085A403 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E2189704CEAB28FF8A547F8 /* Pods-KJVoiceChatRoom.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -440,11 +579,15 @@
 				DEVELOPMENT_TEAM = 6T2VWAK6CR;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KJVoiceChatRoom/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "语聊房UIKit版";
+				INFOPLIST_KEY_NSCameraUsageDescription = "UIKit needs to apply for camera access";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "UIKit needs to apply for microphone access";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,6 +603,7 @@
 		};
 		68BC37F32C8FD4DB0085A403 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C58740F2754B798E7DFB8B11 /* Pods-KJVoiceChatRoom.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -468,11 +612,15 @@
 				DEVELOPMENT_TEAM = 6T2VWAK6CR;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KJVoiceChatRoom/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "语聊房UIKit版";
+				INFOPLIST_KEY_NSCameraUsageDescription = "UIKit needs to apply for camera access";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "UIKit needs to apply for microphone access";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
