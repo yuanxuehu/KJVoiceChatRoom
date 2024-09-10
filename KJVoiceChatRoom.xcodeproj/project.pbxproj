@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68BC37CB2C8FD4D90085A403 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BC37CA2C8FD4D90085A403 /* AppDelegate.swift */; };
+		68BC37CD2C8FD4D90085A403 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BC37CC2C8FD4D90085A403 /* SceneDelegate.swift */; };
+		68BC37CF2C8FD4D90085A403 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BC37CE2C8FD4D90085A403 /* ViewController.swift */; };
+		68BC37D22C8FD4D90085A403 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68BC37D02C8FD4D90085A403 /* Main.storyboard */; };
+		68BC37D42C8FD4DA0085A403 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68BC37D32C8FD4DA0085A403 /* Assets.xcassets */; };
+		68BC37D72C8FD4DA0085A403 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68BC37D52C8FD4DA0085A403 /* LaunchScreen.storyboard */; };
+		68BC37E22C8FD4DB0085A403 /* KJVoiceChatRoomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BC37E12C8FD4DB0085A403 /* KJVoiceChatRoomTests.swift */; };
+		68BC37EC2C8FD4DB0085A403 /* KJVoiceChatRoomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BC37EB2C8FD4DB0085A403 /* KJVoiceChatRoomUITests.swift */; };
+		68BC37EE2C8FD4DB0085A403 /* KJVoiceChatRoomUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BC37ED2C8FD4DB0085A403 /* KJVoiceChatRoomUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68BC37DE2C8FD4DA0085A403 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68BC37BF2C8FD4D90085A403 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68BC37C62C8FD4D90085A403;
+			remoteInfo = KJVoiceChatRoom;
+		};
+		68BC37E82C8FD4DB0085A403 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68BC37BF2C8FD4D90085A403 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68BC37C62C8FD4D90085A403;
+			remoteInfo = KJVoiceChatRoom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68BC37C72C8FD4D90085A403 /* KJVoiceChatRoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KJVoiceChatRoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68BC37CA2C8FD4D90085A403 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		68BC37CC2C8FD4D90085A403 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		68BC37CE2C8FD4D90085A403 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		68BC37D12C8FD4D90085A403 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68BC37D32C8FD4DA0085A403 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68BC37D62C8FD4DA0085A403 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		68BC37D82C8FD4DA0085A403 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68BC37DD2C8FD4DA0085A403 /* KJVoiceChatRoomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KJVoiceChatRoomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68BC37E12C8FD4DB0085A403 /* KJVoiceChatRoomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KJVoiceChatRoomTests.swift; sourceTree = "<group>"; };
+		68BC37E72C8FD4DB0085A403 /* KJVoiceChatRoomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KJVoiceChatRoomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68BC37EB2C8FD4DB0085A403 /* KJVoiceChatRoomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KJVoiceChatRoomUITests.swift; sourceTree = "<group>"; };
+		68BC37ED2C8FD4DB0085A403 /* KJVoiceChatRoomUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KJVoiceChatRoomUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68BC37C42C8FD4D90085A403 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68BC37DA2C8FD4DA0085A403 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68BC37E42C8FD4DB0085A403 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68BC37BE2C8FD4D90085A403 = {
+			isa = PBXGroup;
+			children = (
+				68BC37C92C8FD4D90085A403 /* KJVoiceChatRoom */,
+				68BC37E02C8FD4DB0085A403 /* KJVoiceChatRoomTests */,
+				68BC37EA2C8FD4DB0085A403 /* KJVoiceChatRoomUITests */,
+				68BC37C82C8FD4D90085A403 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68BC37C82C8FD4D90085A403 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68BC37C72C8FD4D90085A403 /* KJVoiceChatRoom.app */,
+				68BC37DD2C8FD4DA0085A403 /* KJVoiceChatRoomTests.xctest */,
+				68BC37E72C8FD4DB0085A403 /* KJVoiceChatRoomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68BC37C92C8FD4D90085A403 /* KJVoiceChatRoom */ = {
+			isa = PBXGroup;
+			children = (
+				68BC37CA2C8FD4D90085A403 /* AppDelegate.swift */,
+				68BC37CC2C8FD4D90085A403 /* SceneDelegate.swift */,
+				68BC37CE2C8FD4D90085A403 /* ViewController.swift */,
+				68BC37D02C8FD4D90085A403 /* Main.storyboard */,
+				68BC37D32C8FD4DA0085A403 /* Assets.xcassets */,
+				68BC37D52C8FD4DA0085A403 /* LaunchScreen.storyboard */,
+				68BC37D82C8FD4DA0085A403 /* Info.plist */,
+			);
+			path = KJVoiceChatRoom;
+			sourceTree = "<group>";
+		};
+		68BC37E02C8FD4DB0085A403 /* KJVoiceChatRoomTests */ = {
+			isa = PBXGroup;
+			children = (
+				68BC37E12C8FD4DB0085A403 /* KJVoiceChatRoomTests.swift */,
+			);
+			path = KJVoiceChatRoomTests;
+			sourceTree = "<group>";
+		};
+		68BC37EA2C8FD4DB0085A403 /* KJVoiceChatRoomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				68BC37EB2C8FD4DB0085A403 /* KJVoiceChatRoomUITests.swift */,
+				68BC37ED2C8FD4DB0085A403 /* KJVoiceChatRoomUITestsLaunchTests.swift */,
+			);
+			path = KJVoiceChatRoomUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68BC37C62C8FD4D90085A403 /* KJVoiceChatRoom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68BC37F12C8FD4DB0085A403 /* Build configuration list for PBXNativeTarget "KJVoiceChatRoom" */;
+			buildPhases = (
+				68BC37C32C8FD4D90085A403 /* Sources */,
+				68BC37C42C8FD4D90085A403 /* Frameworks */,
+				68BC37C52C8FD4D90085A403 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KJVoiceChatRoom;
+			productName = KJVoiceChatRoom;
+			productReference = 68BC37C72C8FD4D90085A403 /* KJVoiceChatRoom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68BC37DC2C8FD4DA0085A403 /* KJVoiceChatRoomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68BC37F42C8FD4DB0085A403 /* Build configuration list for PBXNativeTarget "KJVoiceChatRoomTests" */;
+			buildPhases = (
+				68BC37D92C8FD4DA0085A403 /* Sources */,
+				68BC37DA2C8FD4DA0085A403 /* Frameworks */,
+				68BC37DB2C8FD4DA0085A403 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68BC37DF2C8FD4DA0085A403 /* PBXTargetDependency */,
+			);
+			name = KJVoiceChatRoomTests;
+			productName = KJVoiceChatRoomTests;
+			productReference = 68BC37DD2C8FD4DA0085A403 /* KJVoiceChatRoomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		68BC37E62C8FD4DB0085A403 /* KJVoiceChatRoomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68BC37F72C8FD4DB0085A403 /* Build configuration list for PBXNativeTarget "KJVoiceChatRoomUITests" */;
+			buildPhases = (
+				68BC37E32C8FD4DB0085A403 /* Sources */,
+				68BC37E42C8FD4DB0085A403 /* Frameworks */,
+				68BC37E52C8FD4DB0085A403 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68BC37E92C8FD4DB0085A403 /* PBXTargetDependency */,
+			);
+			name = KJVoiceChatRoomUITests;
+			productName = KJVoiceChatRoomUITests;
+			productReference = 68BC37E72C8FD4DB0085A403 /* KJVoiceChatRoomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68BC37BF2C8FD4D90085A403 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					68BC37C62C8FD4D90085A403 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					68BC37DC2C8FD4DA0085A403 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 68BC37C62C8FD4D90085A403;
+					};
+					68BC37E62C8FD4DB0085A403 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 68BC37C62C8FD4D90085A403;
+					};
+				};
+			};
+			buildConfigurationList = 68BC37C22C8FD4D90085A403 /* Build configuration list for PBXProject "KJVoiceChatRoom" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68BC37BE2C8FD4D90085A403;
+			productRefGroup = 68BC37C82C8FD4D90085A403 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68BC37C62C8FD4D90085A403 /* KJVoiceChatRoom */,
+				68BC37DC2C8FD4DA0085A403 /* KJVoiceChatRoomTests */,
+				68BC37E62C8FD4DB0085A403 /* KJVoiceChatRoomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68BC37C52C8FD4D90085A403 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68BC37D72C8FD4DA0085A403 /* LaunchScreen.storyboard in Resources */,
+				68BC37D42C8FD4DA0085A403 /* Assets.xcassets in Resources */,
+				68BC37D22C8FD4D90085A403 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68BC37DB2C8FD4DA0085A403 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68BC37E52C8FD4DB0085A403 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68BC37C32C8FD4D90085A403 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68BC37CF2C8FD4D90085A403 /* ViewController.swift in Sources */,
+				68BC37CB2C8FD4D90085A403 /* AppDelegate.swift in Sources */,
+				68BC37CD2C8FD4D90085A403 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68BC37D92C8FD4DA0085A403 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68BC37E22C8FD4DB0085A403 /* KJVoiceChatRoomTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68BC37E32C8FD4DB0085A403 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68BC37EC2C8FD4DB0085A403 /* KJVoiceChatRoomUITests.swift in Sources */,
+				68BC37EE2C8FD4DB0085A403 /* KJVoiceChatRoomUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68BC37DF2C8FD4DA0085A403 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68BC37C62C8FD4D90085A403 /* KJVoiceChatRoom */;
+			targetProxy = 68BC37DE2C8FD4DA0085A403 /* PBXContainerItemProxy */;
+		};
+		68BC37E92C8FD4DB0085A403 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68BC37C62C8FD4D90085A403 /* KJVoiceChatRoom */;
+			targetProxy = 68BC37E82C8FD4DB0085A403 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		68BC37D02C8FD4D90085A403 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68BC37D12C8FD4D90085A403 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		68BC37D52C8FD4DA0085A403 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68BC37D62C8FD4DA0085A403 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68BC37EF2C8FD4DB0085A403 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		68BC37F02C8FD4DB0085A403 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68BC37F22C8FD4DB0085A403 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6T2VWAK6CR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KJVoiceChatRoom/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuanxuehu.KJVoiceChatRoom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68BC37F32C8FD4DB0085A403 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6T2VWAK6CR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KJVoiceChatRoom/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuanxuehu.KJVoiceChatRoom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		68BC37F52C8FD4DB0085A403 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6T2VWAK6CR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuanxuehu.KJVoiceChatRoomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KJVoiceChatRoom.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KJVoiceChatRoom";
+			};
+			name = Debug;
+		};
+		68BC37F62C8FD4DB0085A403 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6T2VWAK6CR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuanxuehu.KJVoiceChatRoomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KJVoiceChatRoom.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KJVoiceChatRoom";
+			};
+			name = Release;
+		};
+		68BC37F82C8FD4DB0085A403 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6T2VWAK6CR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuanxuehu.KJVoiceChatRoomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KJVoiceChatRoom;
+			};
+			name = Debug;
+		};
+		68BC37F92C8FD4DB0085A403 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6T2VWAK6CR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuanxuehu.KJVoiceChatRoomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KJVoiceChatRoom;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68BC37C22C8FD4D90085A403 /* Build configuration list for PBXProject "KJVoiceChatRoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68BC37EF2C8FD4DB0085A403 /* Debug */,
+				68BC37F02C8FD4DB0085A403 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68BC37F12C8FD4DB0085A403 /* Build configuration list for PBXNativeTarget "KJVoiceChatRoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68BC37F22C8FD4DB0085A403 /* Debug */,
+				68BC37F32C8FD4DB0085A403 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68BC37F42C8FD4DB0085A403 /* Build configuration list for PBXNativeTarget "KJVoiceChatRoomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68BC37F52C8FD4DB0085A403 /* Debug */,
+				68BC37F62C8FD4DB0085A403 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68BC37F72C8FD4DB0085A403 /* Build configuration list for PBXNativeTarget "KJVoiceChatRoomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68BC37F82C8FD4DB0085A403 /* Debug */,
+				68BC37F92C8FD4DB0085A403 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68BC37BF2C8FD4D90085A403 /* Project object */;
+}
